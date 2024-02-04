@@ -12,3 +12,14 @@ xfreerdp /v:192.168.73.119 /u:M9 /p:123 /w:1920 /h:1050
 [a blog about ubuntu connect to window with rdp protol](https://phoenixnap.com/kb/ubuntu-rdp-to-windows)
 
 [freerdp offical github](https://github.com/FreeRDP/FreeRDP)
+
+#### example
+```shell
+# -*- encoding: utf-8 -*-
+#!/bin/bash
+xfreerdp /v:192.168.x.x /u:username /p:your_passwd /w:1920 /h:1045  /sound:sys:oss,dev:1,format:1 /clipboard /f
+
+# voice /sound:sys:oss,dev:1,format:1
+# clipboard /clipboard
+# fullscreen /f
+```
